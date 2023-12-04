@@ -1,0 +1,66 @@
+/* --------------------------------------- EXPERIENCE SECTION --------------------------------------- */
+
+.experience-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.details { padding: 10px; }
+.description { margin: 30px 0; }
+.details h4 { margin-top: 30px; }
+.details .period { 
+    font-size: 15px;
+    color: var(--grey-white-color);
+}
+.logo {
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+}
+.background-logo {
+    background-color: var(--white-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 3px;
+}
+.experience-links {
+    display: flex;
+    gap: 15px;
+}
+.download-cv {
+    background-color: var(--secondary-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 3px 4px var(--box-shadow-color);
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 200px;
+    outline: none;
+}
+.download-cv img {
+    width: 20px;
+    height: 25.69px;
+}
+.linkedin {
+    background-color: var(--linkedin-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 3px 4px var(--box-shadow-color);
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+}
+.view-repository-container {
+    display: flex;
+    justify-content: end;
+}
+
+/* --------------------------------------- END EXPERIENCE SECTION --------------------------------------- */

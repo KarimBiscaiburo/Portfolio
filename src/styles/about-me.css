@@ -1,0 +1,29 @@
+/* --------------------------------------- ABOUT ME SECTION --------------------------------------- */
+
+.section-aboutme p {
+    text-align: center;
+    width: 80%;
+}
+.section-aboutme h3 {
+    margin-top: 30px;
+}
+.other-interests {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.interest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.interest img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* --------------------------------------- END ABOUT ME SECTION --------------------------------------- */

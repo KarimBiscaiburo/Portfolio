@@ -1,0 +1,38 @@
+:root {
+    --white-color: #dddddd;
+    --grey-white-color: #AFAFAF;
+    --background-web-color: #19191A;
+    --secondary-background-color: #222224;
+    --linkedin-background-color: #0E76A8;
+    --background-leyend-rgba: rgba(34, 34, 36, 0.864);
+    --selected-icon-color: #F6B91B;
+    --border-color: #4D4D4D;
+    --box-shadow-color: #0E0E0E;
+    --green: #2AA12F;
+
+    --border-radius: 30px;
+}
+
+h1, h2, h3, h4, p, label, textarea, input, button {
+    color: var(--white-color);
+}
+h1 { font-size: 55px; }
+h2 { font-size: 48px; }
+h3 { font-size: 32px; }
+h4 { 
+    font-size: 23px; 
+    font-weight: 400;
+}
+p { font-size: 16px; }
+textarea { resize: none; }
+
+* {
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-web-color);
+}

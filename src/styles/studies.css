@@ -1,0 +1,21 @@
+/* --------------------------------------- STUDIES SECTION --------------------------------------- */
+
+.studies-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.tech-stack-icons {
+    display: flex;
+    gap: 15px;
+}
+.studies-image {
+    width: 100%;
+}
+.view-repository-container {
+    display: flex;
+    justify-content: end;
+}
+
+/* --------------------------------------- END STUDIES SECTION --------------------------------------- */
